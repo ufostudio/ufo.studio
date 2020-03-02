@@ -1,0 +1,134 @@
+/* web fonts */
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+
+@font-face {
+  font-family: 'Relative-Book';
+  src: url('../styles/fonts/Relative-Book.eot?#iefix') format('embedded-opentype'),  url('../styles/fonts/Relative-Book.woff') format('woff'), url('styles/fonts/Relative-Book.ttf')  format('truetype'), url('styles/fonts/Relative-Book.svg#Relative-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Relative-10Pitch';
+  src: url('../styles/fonts/Relative-10Pitch.eot?#iefix') format('embedded-opentype'),  url('../styles/fonts/Relative-10Pitch.woff') format('woff'), url('../styles/fonts/Relative-10Pitch.ttf')  format('truetype'), url('../styles/fonts/Relative-10Pitch.svg#Relative-10Pitch') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* This means that the image is always contained 100% inside of the container */
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+
+body {
+    background-color: #e3e3e3;
+    color: #dfdfdf;
+    line-height: 1.5;
+    width: 100%;
+}
+
+p {
+    color: #5d5959;
+    letter-spacing: 0rem;
+}
+
+.section-divider {
+    margin-top: 50px;
+}
+
+
+
+/* typography */
+
+
+.header-wrapper {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Relative-Book';
+    text-decoration: none;
+    display:inline-block;
+    font-weight:normal;
+    font-size: 1.5rem;
+    color: #000000;
+    padding-bottom: 0px;
+    border-bottom: 2px #000000 solid;
+    letter-spacing: 0.1rem;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Media Queries */
+
+p {
+    font-size: .8rem;
+    line-height: 1.6rem;
+    margin-left: 10%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+
+/*image styles */
+
+.center-wide {
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 10%;
+}
+
+.center-medium {
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 10%;
+}
+
+
+
+.left-medium {
+        width: 40%;
+        padding-left: 10%;
+        padding-right: 50%;
+        padding-bottom: 10%;
+}
+
+.right-medium {
+        width: 40%;
+        padding-left: 50%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+}
+
+
+@media (max-width: 968px) {
+
+        .center-medium, .center-wide {
+                width: 90%;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-bottom: 0%;
+        }
+
+.left-medium, .right-medium {
+                width: 70%;
+                padding-left: 15%;
+                padding-right: 15%;
+                padding-bottom: 5%;
+        }
+}

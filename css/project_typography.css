@@ -1,0 +1,139 @@
+/* Text Styles */
+
+
+project_title {
+	display: block;
+	text-align: left;
+font-family: 'Relative-Book';
+	font-size: 2.3em;
+	line-height: 1.7;
+	color: #444444;
+	margin-left: 10%;
+	margin-right: 30%;
+	margin-bottom: 20px;
+	letter-spacing: 0.02em;
+	background-color: none;
+}
+
+
+
+project_description {
+	display: block;
+	text-align: left;
+font-family: 'Relative-Book';
+	font-size: 1.2em;
+	line-height: 1.3;
+	color: #444444;
+	margin-left: 10%;
+	margin-right: 45%;
+	margin-top: 15px;
+	margin-bottom: 100px;
+	letter-spacing: 0.02em;
+	background-color: none;
+}
+
+project_tags {
+  display: block;
+  	text-align: left;
+	font-family: 'Relative-10Pitch';
+	font-size: 1.2em;
+	line-height: 1.5;
+	color: #444444;
+	margin-bottom: 25px;
+	margin-top: 55px;
+	letter-spacing: -0.02em;
+	margin-left: 10%;
+	margin-right: 20%;
+	background-color: none;
+
+}
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 668px) {
+
+
+title {
+	display: block;
+font-family: 'Relative-Book';
+	font-size: 1.4em;
+	line-height: 1.3;
+	color: #444444;
+	margin-left: 5%;
+	margin-right: 12%;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	letter-spacing: 0.02em;
+
+}
+
+
+
+description {
+	display: block;
+font-family: 'Relative-Book';
+	font-size: 0.9em;
+	line-height: 1.5;
+	color: #444444;
+
+	margin-left: 4%;
+	margin-right: 10%;
+	margin-top: 30px;
+	margin-bottom: 200px;
+	letter-spacing: 0.02em;
+}
+
+project_title {
+	display: block;
+	text-align: left;
+font-family: 'Relative-Book';
+	font-size: 1.6em;
+	line-height: 1.2;
+	color: #444444;
+	margin-left: 13%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	letter-spacing: 0.02em;
+	background-color: none;
+}
+
+
+
+project_description {
+	display: block;
+	text-align: left;
+font-family: 'Relative-Book';
+	font-size: 1em;
+	line-height: 1.3;
+	color: #444444;
+	margin-left: 13%;
+	margin-right: 15%;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	letter-spacing: 0.02em;
+	background-color: none;
+}
+
+project_tags {
+  display: block;
+  	text-align: left;
+	font-family: 'Relative-10Pitch';
+	font-size: 1.0em;
+	line-height: 1.5;
+	color: #444444;
+	margin-bottom: 25px;
+	margin-top: 55px;
+	letter-spacing: -0.02em;
+	margin-left: 13%;
+	margin-right: 20%;
+	background-color: none;
+
+}
+
+
+
+
+}

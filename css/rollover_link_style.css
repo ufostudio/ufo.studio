@@ -1,0 +1,86 @@
+a:link {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color: #444444;
+}
+
+a:hover {
+	text-decoration: none;
+    
+    
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+/* index */
+
+
+
+/*
+a title
+{
+color: #262626;
+  border-bottom:2px solid transparent;
+  padding-bottom: 5px;
+}
+
+
+a title:hover
+{
+  border-bottom:2px solid #262626;
+  padding-bottom: 5px;
+
+}
+
+a img:hover
+{
+	
+border-bottom:
+ border-bottom:0px solid #666666;
+
+}
+
+
+
+a tags
+{
+color: #262626;
+  border-bottom:2px solid transparent;
+  padding-bottom: 5px;
+}
+
+
+a tags:hover
+{
+  border-bottom:2px solid #262626;
+   padding-bottom: 5px;
+}
+
+a img:hover 
+{
+  border-bottom:2px solid #9edef7 ;
+  
+}
+*/
+
+/*
+.asos_content a:hover{	
+	background-color: aqua;
+	border-bottom:2px solid #000000;
+}
+
+.asos_content img:hover{	
+	background-color: aqua;
+	border-bottom:2px solid #000000 transparent;
+}
+*/
+

@@ -1,0 +1,92 @@
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+.about__text__section {
+    padding-top: 4rem;
+}
+
+.hex {
+	margin: auto;
+	display: block;
+	width: 26%;
+	min-width: 200px;
+	max-width: 260px;
+	padding-bottom: 10px;
+}
+
+.about__text {
+background-color: #c5c5c5;
+border-top: 100px solid #eeeeee;
+border-bottom: 0px;
+padding-left: 3rem;
+padding-right: 3rem;
+font-family: 'Relative-Book'; sans-serif;
+font-size: 1.3em;
+line-height: 1.6rem;
+color: #333333;
+}
+
+.small_point {
+font-family: 'Relative-Book'; sans-serif;
+font-size: 1.0rem;
+line-height: 1.6rem;
+padding-left: 50px;
+color: #333333;
+}
+
+.big_point {
+font-family: 'Relative-Book'; sans-serif;
+font-size: 1.7rem;
+line-height: 2.0rem;
+color: #333333;
+}
+
+
+
+@media (max-width: 640px) {
+
+
+.about__text__section {
+    padding: 0rem 0rem;
+}
+
+.ben_image {
+    max-width: 220px;
+}
+
+.about__text {
+background-color: #c5c5c5;
+border-top: 100px solid #eeeeee;
+border-bottom: 0px;
+padding-left: 3rem;
+padding-right: 3rem;
+font-family: 'Relative-Book'; sans-serif;
+font-size: 1.0em;
+line-height: 1.2rem;
+}
+
+
+
+.about__text {
+padding-left: 3rem;
+padding-right: 3rem;
+}
+
+.big_point {
+font-size: 1.2rem;
+line-height: 1.6rem;
+
+}
+
+.small_point {
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+
+
+}
+
+/* Gif header section */

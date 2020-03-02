@@ -1,0 +1,161 @@
+logo_text {
+  font-family: 'Relative-Book', sans-serif;
+  z-index: 100;
+  position: fixed;
+  float: left;
+  left: 15px;
+  top: 15px;
+  letter-spacing: 0.08em;
+  font-size: 2.1em;
+  color: #444444;
+  letter-spacing: 0.00em; }
+
+about_contact_shop {
+  font-family: 'Relative-Book', sans-serif;
+  z-index: 100;
+  position: fixed;
+  float: right;
+  right: 15px;
+  top: 15px;
+  letter-spacing: 0.08em;
+  font-size: 2.1em;
+  color: #444444;
+  letter-spacing: 0.00em; }
+
+.emailtext {
+  font-size: 1rem;
+  position: fixed;
+  margin-left: 15px;
+  width: 15px;
+  bottom: 25px;
+  display: block;
+  z-index: 100; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+active_text {
+  display: inline-block;
+  z-index: 200;
+  margin-left: 5%;
+  font-family: 'Relative-Book' sans-serif;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  color: #444444;
+  width: 45%;
+  max-width: 330px;
+  margin-top: 10px;
+  letter-spacing: 0.02em;
+  background-color: none; }
+
+.logo_section {
+  position: fixed;
+  float: left;
+  z-index: 100;
+  margin-left: 01%; }
+
+.logo {
+  width: 200px;
+  margin-top: 5px; }
+
+.social_section {
+  z-index: 100;
+  position: fixed;
+  margin-right: 15px;
+  bottom: 25px;
+  right: 0%; }
+
+.social_icon {
+  width: 17px;
+  display: block;
+  margin-top: 16px; }
+
+/* <!-- Back button --> */
+projtext {
+  text-align: center;
+  width: 90%;
+  padding-top: 130px;
+  padding-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  font-family: 'Relative-Book' sans-serif;
+  font-size: 0.80em;
+  color: #474747;
+  letter-spacing: 0.09em;
+  text-transform: none; }
+
+.back_button_wrapper {
+  width: 100%; }
+
+.back_button {
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 130px;
+  padding-top: 10px; }
+
+/*  PROJECT NAV STYLE */
+/* Media Queries */
+@media (max-width: 668px) {
+  hextext {
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-family: 'Relative-Book' sans-serif;
+    font-size: 0.80em;
+    line-height: 1.8;
+    color: #444444;
+    width: 90%;
+    max-width: 280px;
+    margin-top: 10px;
+    letter-spacing: 0.02em;
+    background-color: none; }
+  about_contact_shop {
+    position: fixed;
+    float: right;
+    right: 5%;
+    top: 25px;
+    font-family: 'Relative-Book' sans-serif;
+    font-size: 0.70em;
+    color: #444444;
+    letter-spacing: 0.03em; }
+  .logo {
+    width: 50px;
+    margin-top: 17px;
+    display: block; }
+  .emailtext {
+    position: fixed;
+    margin-left: 05%;
+    width: 12px;
+    bottom: 20px;
+    display: block; }
+  .social_section {
+    margin-right: 3%;
+    position: fixed;
+    bottom: 20px; }
+  .social_icon {
+    width: 14px;
+    margin-top: 15px; }
+  projhexwrap {
+    width: 100%;
+    max-width: 1500px;
+    bottom: 20px;
+    position: absolute; }
+  projtext {
+    font-size: 0.70em; }
+  .project_arrow {
+    width: 10px;
+    padding-top: 0px; } }

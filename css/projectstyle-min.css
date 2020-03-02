@@ -1,0 +1,113 @@
+/* web fonts */
+/* Font Smoothing */
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+/* Font Files */
+@font-face {
+  font-family: 'Relative-Book';
+  src: url("../css/webfont/Relative-Book.eot?#iefix") format("embedded-opentype"), url("../css/webfont/Relative-Book.woff") format("woff"), url("css/webfont/Relative-Book.ttf") format("truetype"), url("css/webfont/Relative-Book.svg#Relative-Book") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Relative-10Pitch';
+  src: url("../css/webfont/Relative-10Pitch.eot?#iefix") format("embedded-opentype"), url("../css/webfont/Relative-10Pitch.woff") format("woff"), url("../css/webfont/Relative-10Pitch.ttf") format("truetype"), url("../css/webfont/Relative-10Pitch.svg#Relative-10Pitch") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background-color: #eeeeee; }
+
+/* Nav */
+.logo_section {
+  margin-left: 05%; }
+
+.logo {
+  width: 45px;
+  margin-top: 42px;
+  display: block;
+  float: left; }
+
+img,
+#video_block {
+  width: 100%; }
+
+/* Block Styles */
+#primary_content_header {
+  width: 100%;
+  /* for IE 6 */ }
+
+imagetitle {
+  position: absolute;
+  top: 100px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Relative-Book';
+  font-size: 3.8em;
+  line-height: 1.5;
+  color: #878787;
+  letter-spacing: 0.02em; }
+
+imagetitle span {
+  color: black;
+  font: 'Relative-Book';
+  letter-spacing: 1px;
+  font-size: 0.5em;
+  /*    background: rgb(0, 0, 0);  */
+  /* fallback color */
+  /*    background: rgba(0, 0, 0, 0.7); */ }
+
+#video_block {
+  width: 100%; }
+
+#video_block2 {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%; }
+
+#video_block3 {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%; }
+
+#primary_content img {
+  margin: auto;
+  width: 100%; }
+
+#editorial_content2 img {
+  margin: auto; }
+
+#secondary_content img {
+  margin: auto;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 98%; }
+
+#editorial_content1 img {
+  margin: auto;
+  padding-top: 05%;
+  padding-bottom: 05%;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 70%; }
+
+.left_column {
+  float: left;
+  display: inline;
+  margin-left: 5%;
+  margin-right: 2.5%;
+  margin-top: 5%;
+  width: 42.5%; }
+
+.right_column {
+  float: left;
+  display: inline;
+  margin-left: 2.5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 42.5%; }

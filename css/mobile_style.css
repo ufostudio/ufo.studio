@@ -1,0 +1,304 @@
+/* Media Queries */
+
+@media (max-width: 668px) {
+
+
+
+
+	hextext {
+		margin: auto;
+		display: block;
+		text-align: center;
+		font-family: 'Relative-Book';
+		font-size: 0.80em;
+		line-height: 1.8;
+		color: #444444;
+		width: 90%;
+		max-width: 280px;
+
+		margin-top: 10px;
+		letter-spacing: 0.02em;
+		background-color: none;
+	}
+
+
+	about_contact_shop {
+		position: fixed;
+		float: right;
+		right: 5%;
+		top: 3%;
+		right: 3%;
+		font-family: 'Relative-Book';
+		font-size: 1.5em;
+		color: #444444;
+		letter-spacing: 0.03em;
+	}
+
+
+	.logo {
+		width: 38px;
+		margin-top: 17px;
+		display: block;
+	}
+
+	.emailtext {
+		position: fixed;
+		margin-left: 3%;
+		width: 12px;
+		bottom: 20px;
+		display: block;
+	}
+
+	.social_section {
+		margin-right: 5%;
+		position: fixed;
+	    bottom: 20px;
+	    right: 0%;
+	}
+
+
+	projhexwrap {
+		width: 100%;
+		max-width: 1500px;
+		bottom: 20px;
+		position: absolute;
+	}
+
+	projtext {
+		font-size: 0.70em;
+	}
+
+	.project_arrow {
+		width: 10px;
+		padding-top: 0px;
+	}
+
+
+	/* text */
+	logo_text {
+	  font-family: 'Relative-Book', sans-serif;
+	  z-index: 100;
+	  position: fixed;
+	  float: left;
+	  top: 3%;
+  	  right: 3%;
+	  font-size: 1.5em;
+	  color: #444444;
+	  letter-spacing: 0.00em;
+	}
+
+
+	description {
+		display: block;
+		font-family: 'Relative-Book';
+		font-size: 1.0em;
+		line-height: 1.2;
+		color: #444444;
+		margin-right: 5%;
+		margin-left: 10%;
+		margin-top: 25px;
+		margin-bottom: 60px;
+		letter-spacing: 0.02em;
+		background-color: none;
+	}
+
+
+	.primary_content {
+		clear: both;
+		width: 100%;
+	}
+
+
+	/* Extra Project related: */
+	.bfi_content title {
+		color: #e3e3e3;
+	}
+
+	.bfi_content description {
+		color: #c1c1c1;
+	}
+
+	.bfi_content tags {
+		color: #e3e3e3;
+	}
+
+
+
+	/* Slected work style */
+
+	.bond_content {
+		width: 100%;
+		padding:3%;
+		padding-top:35%;
+		padding-bottom:25%;
+
+		}
+
+	.re-issued_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		}
+
+	.supercans_content {
+		width: 100%;
+		padding: 3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		}
+
+	.glamour_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+
+	}
+
+
+
+	.asos_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		}
+
+
+	.bfi_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: #453f3f;
+	}
+
+	.brand-labs_content {
+		width: 100%;
+		padding:7%;
+		padding-top:25%;
+		padding-bottom:25%;
+
+	}
+
+
+	.oblb_content {
+			width: 100%;
+			padding:0%;
+			padding-top:25%;
+			padding-bottom:25%;
+
+		}
+
+
+	.navigator_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+
+	}
+
+
+	.vans_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: #d9d9d9;
+	}
+
+	.lad_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: #171717;
+	}
+
+	.empirical_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: #171717;
+
+	}
+
+
+	.maigret_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		}
+
+
+	.fifty_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: #eeeeee;
+		}
+
+
+	.fiftytwo_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: #acc1c6;
+	}
+
+	.vicenike_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: #ffffff;
+		}
+
+	.crane_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: none;
+		}
+
+	.filmis_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: none;
+		}
+
+
+
+	.rude_content {
+		width: 100%;
+		padding:3%;
+		padding-top:25%;
+		padding-bottom:25%;
+		background-color: #fefbf6;
+		}
+
+	/* about */
+
+
+	.about_text_left {
+
+	    display: block;
+	    text-align: left;
+	    font-family: 'Relative-Book';
+	    font-size: 5.0em;
+	    line-height: 1.4;
+	    color: #444444;
+	    width: 80%;
+	    padding-bottom: 100px;
+	    letter-spacing: 0.02em;
+    	}
+}
